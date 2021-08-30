@@ -1,0 +1,18 @@
+<%- include("header") -%>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">Basic Weather App</h3>
+    </div>
+  </header>
+
+    <main>
+        <h1>The temperature in <%= sentTownName %> is <%= sentTemp %>° farenheit</h1>
+        <p>The Weather is currently: <%= sentDesc %><p>
+        <img src = <%= sentImage %>></img>
+        <form action="/display" method="POST">
+            <button class="button" name="result" value="display" type="submit">Go Back</button>
+        </form>
+    </main>
+
+<%- include("footer") -%>

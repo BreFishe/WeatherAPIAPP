@@ -1,0 +1,17 @@
+<%- include("header") -%>
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+        <div>
+            <h3 class="float-md-start mb-0">Basic Weather App</h3>
+        </div>
+    </header>
+
+    <main>
+        <h1>Not a valid zip code</h1>
+        <form action="/fail" method="POST">
+            <button class="button"  type="submit" name="result" value= <%= sentZip %> >Go Back</button>
+        </form>
+    </main>
+
+<%- include("footer") -%>

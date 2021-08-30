@@ -1,0 +1,77 @@
+.box {
+    max-width: 320px;
+    min-height: 50px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.bigLabel{
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+}
+
+.container {
+  height: 20px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.input {
+    width: 300px;
+    text-align: center;
+}
+
+*:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.button {
+    margin: 10px;
+    width: 200px;
+    background-color: 	#FF4500;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #de2f1f;
+}
+
+.button:hover {
+    background-color: #df5320
+}
+
+.button:active {
+  background-color: #df5320;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
